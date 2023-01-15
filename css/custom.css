@@ -22,4 +22,10 @@
   [data-theme="dark"] #page-header::before {
     background: transparent !important;
   }
+/* 修复文章数目为单数时，翻页按钮错位的问题*/
+/* 翻页按钮居中 */
+#pagination {
+    width: 100%;
+    margin: auto;
+  }
   
