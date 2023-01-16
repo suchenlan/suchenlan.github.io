@@ -262,12 +262,6 @@ function addLongtabListener(target, callback) {
 
 addLongtabListener(box, popupMenu)
 
-// 全屏
-rmf.fullScreen = function () {
-    if (document.fullscreenElement) document.exitFullscreen();
-    else document.documentElement.requestFullscreen();
-}
-
 // 右键开关
 if (localStorage.getItem("mouse") == undefined) {
     localStorage.setItem("mouse", "on");
